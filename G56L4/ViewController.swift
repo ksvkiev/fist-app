@@ -10,16 +10,35 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let myCar = Car(bodyType: "Bus", color: .black, engineСapacity: 2.4, transmission: .automatic)
+
+    @IBOutlet weak var isDriveLabel: UILabel!
+    @IBOutlet weak var speedLabel: UILabel!
+    @IBOutlet weak var fuelLabel: UILabel!
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+
+        reloadUI()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func reloadUI() {
+        isDriveLabel.text = "\(myCar.drive)"
+        speedLabel.text = "\(myCar.speed)"
+        fuelLabel.text = "\(myCar.fuel)"
     }
 
 
+    @IBAction func driveAction(_ sender: UIButton) {
+        myCar.changeSpeed()
+        reloadUI()
+    }
+
+    @IBAction func gasStationAction(_ sender: UIButton) {
+        myCar.onGasStation(1.0)
+        reloadUI()
+    }
 }
 

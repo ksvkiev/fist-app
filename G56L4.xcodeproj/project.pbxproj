@@ -12,6 +12,8 @@
 		227D4F3E1F506E5C00C6F2C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227D4F3C1F506E5C00C6F2C8 /* Main.storyboard */; };
 		227D4F401F506E5C00C6F2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227D4F3F1F506E5C00C6F2C8 /* Assets.xcassets */; };
 		227D4F431F506E5C00C6F2C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227D4F411F506E5C00C6F2C8 /* LaunchScreen.storyboard */; };
+		227D4F4F1F508FC200C6F2C8 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D4F4E1F508FC200C6F2C8 /* Car.swift */; };
+		227D4F511F50926400C6F2C8 /* Transmission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D4F501F50926400C6F2C8 /* Transmission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		227D4F3F1F506E5C00C6F2C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		227D4F421F506E5C00C6F2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		227D4F441F506E5C00C6F2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227D4F4E1F508FC200C6F2C8 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Car.swift; path = ../Car.swift; sourceTree = "<group>"; };
+		227D4F501F50926400C6F2C8 /* Transmission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transmission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				227D4F381F506E5C00C6F2C8 /* AppDelegate.swift */,
 				227D4F3A1F506E5C00C6F2C8 /* ViewController.swift */,
+				227D4F4E1F508FC200C6F2C8 /* Car.swift */,
+				227D4F501F50926400C6F2C8 /* Transmission.swift */,
 				227D4F3C1F506E5C00C6F2C8 /* Main.storyboard */,
 				227D4F3F1F506E5C00C6F2C8 /* Assets.xcassets */,
 				227D4F411F506E5C00C6F2C8 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			files = (
 				227D4F3B1F506E5C00C6F2C8 /* ViewController.swift in Sources */,
 				227D4F391F506E5C00C6F2C8 /* AppDelegate.swift in Sources */,
+				227D4F4F1F508FC200C6F2C8 /* Car.swift in Sources */,
+				227D4F511F50926400C6F2C8 /* Transmission.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +312,7 @@
 				227D4F491F506E5C00C6F2C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
