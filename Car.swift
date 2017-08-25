@@ -14,7 +14,6 @@ class Car: NSObject {
     // MARK: Public Properties
 
     let bodyType: String
-    let color: UIColor
     let engineСapacity: Double
     let transmission: Transmission
     var speed: Double
@@ -23,7 +22,7 @@ class Car: NSObject {
 
     // MARK: Private Properties
 
-
+    private let color: UIColor
 
     // MARK: Initializer
 
